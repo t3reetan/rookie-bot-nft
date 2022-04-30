@@ -4,6 +4,8 @@ import Head from "next/head";
 import Web3Modal from "web3modal";
 import { abi, NFT_CONTRACT_ADDRESS } from "../constants";
 import styles from "../styles/Home.module.css";
+import Image from "next/image";
+import rookiebot from "/public/rookiebot.jpg";
 
 export default function Home() {
   // walletConnected keep track of whether the user's wallet is connected or not
@@ -364,8 +366,8 @@ export default function Home() {
           </div>
           {renderButton()}
         </div>
-        <div>
-          <img className={styles.image} src="./cryptodevs/0.svg" />
+        <div className={styles.image}>
+          <Image src={rookiebot} alt="robot-pic" height={400} width={400} />
         </div>
       </div>
 

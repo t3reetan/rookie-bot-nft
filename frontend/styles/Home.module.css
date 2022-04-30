@@ -16,9 +16,11 @@
 }
 
 .image {
-  width: 70%;
-  height: 50%;
-  margin-left: 20%;
+  margin-left: 5%;
+}
+
+.image img {
+  border-radius: 10px;
 }
 
 .title {
