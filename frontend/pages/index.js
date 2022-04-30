@@ -79,7 +79,8 @@ export default function Home() {
       const whitelistContract = new Contract(NFT_CONTRACT_ADDRESS, abi, signer);
       // call the presaleMint from the contract, only whitelisted addresses would be able to mint
       const tx = await whitelistContract.presaleMint({
-        // value signifies the cost of one crypto dev which is "0.01" eth.
+        // value signifies the cost of one crypto dev which is "0.01" eth 
+        // presaleMint function in our contract requires us to send 0.01 ether for a presale mint
         // We are parsing `0.01` string to ether using the utils library from ethers.js
         value: utils.parseEther("0.01"),
       });
