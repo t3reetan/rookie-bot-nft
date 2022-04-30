@@ -1,1 +1,0 @@
-# rookie-bot-nft
