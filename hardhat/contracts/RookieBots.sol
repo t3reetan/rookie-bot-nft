@@ -111,7 +111,7 @@ contract RookieBots is ERC721Enumerable, Ownable {
      * returns an empty string for the baseURI
      * requires override keyword
      */
-    function _baseURI() internal view override returns (string memory) {
+    function _baseURI() internal view virtual override returns (string memory) {
         return _baseTokenURI;
     }
 
