@@ -4,7 +4,7 @@ export default function handler(req, res) {
 
   // As all the images are uploaded on github, we can extract the images from github directly.
   const image_url =
-    "https://raw.githubusercontent.com/t3reetan/rookie-bots-nft/main/frontend/public/rookie-bots/";
+    "https://raw.githubusercontent.com/t3reetan/rookie-bots-nft/main/frontend/public/rookiebots/";
 
   // The api is sending back metadata for a Rookie Bot
   // To make our collection compatible with Opensea, we need to follow some Metadata standards (for OpenSea)
