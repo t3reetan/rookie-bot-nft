@@ -6,8 +6,8 @@ export default function handler(req, res) {
   const image_url =
     "https://raw.githubusercontent.com/t3reetan/rookie-bots-nft/main/frontend/public/rookie-bots/";
 
-  // The api is sending back metadata for a Crypto Dev
-  // To make our collection compatible with Opensea, we need to follow some Metadata standards
+  // The api is sending back metadata for a Rookie Bot
+  // To make our collection compatible with Opensea, we need to follow some Metadata standards (for OpenSea)
   // when sending back the response from the api
   // More info can be found here: https://docs.opensea.io/docs/metadata-standards
   res.status(200).json({
