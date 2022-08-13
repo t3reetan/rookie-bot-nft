@@ -56,10 +56,9 @@ Rookie Bots is an NFT collection built on the Ethereum blockchain. This NFT mint
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Hardhat][Hardhat.org]][Hardhat-url]
-* [![Ethers.js][Ethers.js]][Ethers-url]
-* [![Ethereum][Ethereum.org]][Ethereum-url]
+<img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="nextjs.org" width="70"/>
+<img src="frontend/public/hardhat_logo.png" alt="hardhat.org" width="100"/>
+<img src="frontend/public/ethersjs_logo.png" alt="ethers.js" width="100"/>
+<img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white" alt="ethereum.org" width="100"/>
 
 <p align="right">[<a href="#readme-top">Back to top</a>]</p>
